@@ -24,9 +24,6 @@ hs_err_pid*
 # Mac OS X Clutter
 *.DS_Store
 
-# Gradle Stuff
-*.gradle/
-
 # Intellij IDEA (see https://intellij-support.jetbrains.com/entries/23393067)
 */.idea/workspace.xml
 */.idea/tasks.xml

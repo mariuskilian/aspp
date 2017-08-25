@@ -12,6 +12,21 @@ public class Game {
         this.awayTeam = awayTeam;
     }
 
+    public Team getHomeTeam() {
+        return homeTeam;
+    }
+
+    public Team getAwayTeam() {
+        return awayTeam;
+    }
+
+    public Score getPredictedScore() {
+        return predictedScore;
+    }
+
+    public Score getFinalScore() {
+        return finalScore;
+    }
 }
 
 class Score {

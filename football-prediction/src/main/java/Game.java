@@ -12,6 +12,14 @@ public class Game {
         this.awayTeam = awayTeam;
     }
 
+    public void setPredictedScore(Score score) {
+        predictedScore = score;
+    }
+
+    public void setFinalScore(Score score) {
+        finalScore = score;
+    }
+
     public Team getHomeTeam() {
         return homeTeam;
     }

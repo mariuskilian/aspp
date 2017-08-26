@@ -8,7 +8,7 @@ public class Gameday {
     public Gameday(Game game[]) {
         this.game = game;
         for(Game g : game) {
-            Calculations.predictGame(g);
+            g.setPredictedScore(Calculations.predictGame(g));
         }
     }
 

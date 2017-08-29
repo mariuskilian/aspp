@@ -3,13 +3,17 @@
  */
 public class Gameday {
 
-    private Game game[];
+    private Game games[];
 
-    public Gameday(Game game[]) {
-        this.game = game;
-        for(Game g : game) {
+    public Gameday(Game games[]) {
+        this.games = games;
+        for(Game g : games) {
             g.setPredictedScore(Calculations.predictGame(g));
         }
+    }
+
+    public Game[] getGames() {
+        return games;
     }
 
 }
